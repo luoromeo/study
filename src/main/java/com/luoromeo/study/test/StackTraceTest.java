@@ -1,13 +1,10 @@
 package com.luoromeo.study.test;
 
-import sun.jvm.hotspot.StackTrace;
-
 import java.util.Scanner;
-import java.util.function.IntFunction;
 
 /**
- * @description
  * @author zhanghua.luo
+ * @description
  * @date 2018年07月30日 14:35
  * @modified By
  */
@@ -32,7 +29,7 @@ public class StackTraceTest {
             System.out.println(frame);
         }
 
-        int r ;
+        int r;
         if (n <= 1) {
             r = 1;
         } else {
